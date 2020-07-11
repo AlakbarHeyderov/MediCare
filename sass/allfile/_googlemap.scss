@@ -1,5 +1,6 @@
 #googlemap{
     position: relative;
+    
 }
 .map{ 
     height: $height-4 + 100px;  
@@ -16,6 +17,7 @@ position: relative;
     top: 0px;
     z-index: $zindex0; 
     color: white;
+    font-family: Montserrat;
     .header-working{
 @include header-mixin;
     }
