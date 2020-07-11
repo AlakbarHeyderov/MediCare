@@ -9,7 +9,6 @@
     
     .menu{
         width: 50%;
-        
         a{
             text-decoration: none;
             color: #444444;
@@ -32,8 +31,7 @@
             border-bottom: none;
             border-top: none;
             line-height: 50px;
-            display: inline-block;
-            
+            display: inline-block;  
             input{
                 border: none;
                 width: 160px;
@@ -46,8 +44,7 @@
                 border-color: transparent;
                 &:focus{
                     outline: none;
-                }
-                
+                } 
             } 
             a{
                 color: black;
@@ -59,8 +56,7 @@
             i{
             color: $colorMain;
             padding-left: 15px;;
-            }
-            
+            }       
     }
 }
     .hidde-menu{
@@ -72,9 +68,7 @@
         top:53px;
         z-index: 55;
         padding-bottom: 10px;
-        justify-content: space-between;
-       
-        
+        justify-content: space-between; 
         a{
             text-decoration: none;
         }
