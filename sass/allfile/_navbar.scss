@@ -59,8 +59,9 @@
             }       
     }
 }
+    
     .hidde-menu{
-        display: none;
+        display: flex;
         width: 80%;
         background-color:#f1f1f1;
         @include absolute;
@@ -134,6 +135,10 @@
     }
 }
 
+
+.blok{
+    display: none;
+}
 
 
 

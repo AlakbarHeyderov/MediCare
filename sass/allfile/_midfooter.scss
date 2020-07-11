@@ -2,6 +2,7 @@
     width: 100%;
     height: 390px;
     background-color: #1D1F27;
+    font-family: Montserrat;
 }
 
 .mid-row{
@@ -74,7 +75,7 @@
 .header-a{
     font-size: 14px;
     color: #ffffff;
-    padding-right: 25px;
+    // padding-right: 25px;
    
     &:hover{
         color: $hover-color;
