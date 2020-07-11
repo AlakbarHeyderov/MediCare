@@ -611,6 +611,10 @@ table {
   display: flex;
 }
 
+.main-team-childe-container {
+  width: 80%;
+}
+
 .imgItself {
   width: 25%;
 }
@@ -623,28 +627,28 @@ table {
   flex-direction: column;
 }
 
-.main-team-childe-container {
-  width: 50%;
-}
-.main-team-childe-container h3 {
+.text-container h3 {
   font-family: 'Merriweather';
   font-size: 15px;
   font-weight: 400;
   color: #444444;
   margin-right: 31%;
 }
-.main-team-childe-container h1 {
+
+.text-container h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 58px;
   margin-top: 2%;
   margin-right: 21%;
 }
-.main-team-childe-container span {
+
+.text-container span {
   font-weight: 900;
   color: #0CB8B6;
 }
-.main-team-childe-container hr {
+
+.text-container hr {
   height: 5px;
   height: 2px;
   width: 4.2%;
@@ -652,14 +656,6 @@ table {
   background-color: #0CB8B6;
   margin-right: 68.6%;
   margin-top: 1.5%;
-}
-.main-team-childe-container p {
-  font-family: 'Merriweather';
-  font-size: 15px;
-  font-weight: 400;
-  color: #444444;
-  line-height: 33px;
-  margin-top: 2%;
 }
 
 .text-container p {
