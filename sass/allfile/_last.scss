@@ -15,10 +15,29 @@
     padding: 15px;
     background-color: rgb(57, 226, 238);
     box-sizing: border-box;
-}
-.heading{
-    padding: 0 30px;
-    line-height: 1.7;
+
+    .heading{
+        padding: 0 30px;
+        line-height: 1.7;
+    }
+    .input{
+        color: white;
+        width: 171px;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 26px;
+        padding: 10px;
+        border: 2px solid white;
+        transition: all .3s ease; 
+        &:focus{
+            outline: none;
+        }
+    }
+    .input:hover{
+        background-color: white;
+        color: black;
+    }
 }
 .backgorund-color1{
 background-color: rgba(18, 197, 195, 1);
@@ -57,4 +76,5 @@ background-color: rgba(18, 197, 195, 1);
 .Padding-right2{
     padding-right: 50px;
 }
+
 
