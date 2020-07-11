@@ -20,68 +20,34 @@
     flex-direction: column;
    
 }
-.main-team-childe-container{
-    width: 50%;
-    h3{
-        @include text-itself;
-        margin-right: 31%;
-        
-    }
-    h1{
-        font-family: 'Lato', sans-serif;
-        font-weight: 400;
-        font-size: 58px;
-        margin-top: 2%;
-        margin-right: 21%;
-    }
-    span{
-        font-weight: 900;
-        color: $bgColor;
-    }
-    hr{
-        height: 5px;
-        height: 2px;
-        width: 4.2%;
-        border:none;
-        background-color: $bgColor;
-        margin-right: 68.6%;
-        margin-top: 1.5%;
-    }
-    p{
-        @include text-itself;
-        line-height: 33px;
-        margin-top: 2%;
-    }
+.text-container h3{
+    @include text-itself;
+    margin-right: 31%;
+    
 }
 
-// .text-container h3{
-//     @include text-itself;
-//     margin-right: 31%;
-    
-// }
+.text-container h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 58px;
+    margin-top: 2%;
+    margin-right: 21%;
+}
 
-// .text-container h1{
-//     font-family: 'Lato', sans-serif;
-//     font-weight: 400;
-//     font-size: 58px;
-//     margin-top: 2%;
-//     margin-right: 21%;
-// }
+.text-container span{
+    font-weight: 900;
+    color: $bgColor;
+}
 
-// .text-container span{
-//     font-weight: 900;
-//     color: $bgColor;
-// }
-
-// .text-container hr{
-//     height: 5px;
-//     height: 2px;
-//     width: 4.2%;
-//     border:none;
-//     background-color: $bgColor;
-//     margin-right: 68.6%;
-//     margin-top: 1.5%;
-// }
+.text-container hr{
+    height: 5px;
+    height: 2px;
+    width: 4.2%;
+    border:none;
+    background-color: $bgColor;
+    margin-right: 68.6%;
+    margin-top: 1.5%;
+}
 
 .text-container p{
     @include text-itself;
