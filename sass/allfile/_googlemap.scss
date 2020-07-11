@@ -1,0 +1,47 @@
+#googlemap{
+    position: relative;
+}
+.map{ 
+    height: $height-4 + 100px;  
+}
+.google-iframe{
+position: relative;   
+}
+.map-box{
+    width: 325px;
+    height: $height-4+100px;
+    background-color: $mapColor;
+    @include position-absolute;
+    left: 95px;
+    top: 0px;
+    z-index: $zindex0; 
+    color: white;
+    .header-working{
+@include header-mixin;
+    }
+}    
+.linerow{
+    @include displayFlexJustifayBettwen;
+    @include map-mar-pad;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+  }
+// Contact hissesi
+.contact{
+    h3{
+        @include header-mixin;
+    }
+    .contact-icons{
+        @include map-mar-pad;
+        &:hover{
+            color: $hover-color;
+            transition: $hover-trans;
+        }
+      i{
+          font-size: 26px;
+      }
+      span{
+          padding-right: 5px;
+      }
+    }
+}
+

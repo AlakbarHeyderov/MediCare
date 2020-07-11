@@ -1,0 +1,130 @@
+@mixin paddingTopUpper {
+    padding: 18px 0px;
+}
+@mixin paddingAllSection {
+    padding: 0px 95px;
+}
+
+@mixin displayFlexJustifyBetween {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin displayFlexJustifyStarst {
+    display: flex;
+    justify-content: start;
+}
+@mixin widthHeightFul {
+    width: 100%;
+    height: 100%;
+}
+@mixin absolute {
+    position: absolute;
+}
+@mixin relative{
+    position: relative;
+}
+@mixin coverNoRepeat {
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+@mixin text-family{
+    font-family: Montserrat ;
+}
+
+@mixin text-size{
+    font-size: 15px;
+    font-family: Source Serif Pro;
+    line-height: 1.55;
+    color:#444;
+    font-weight: 400;
+}
+
+
+@mixin head-size{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@mixin text-mini-size{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #444;
+}
+
+
+
+@mixin text-itself {
+    font-family: 'Merriweather';
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+}
+
+@mixin team-mbrs {
+    padding: 3%;
+}
+
+@mixin buttons{
+    border: 8px solid white;
+    border-radius: 50%;
+    height: 45px;
+    width: 44px;
+    background-color:#0CB8B6;
+}
+
+
+@mixin resize-image {
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+@mixin text-center {
+    text-align: center;
+}
+
+@mixin flex-center {
+ display: flex;
+ justify-content: space-between;
+}
+@mixin map-mar-pad {
+    margin: 15px 30px;
+    padding-bottom: 10px;
+}
+// Flex
+@mixin displayFlexJustifayBettwen {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin displayFlexAround {
+    display: flex;
+    justify-content: space-around;
+}
+
+// position
+@mixin position-absolute {
+    position: absolute;
+}
+@mixin alignCenter {
+    text-align: center;
+    
+}
+// Header ucun
+@mixin header-mixin {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 30px;
+}
+
+// fonts
+@mixin font-Montserrat {
+    font-family: Montserrat;
+    
+}
+// none
+@mixin text-dec {
+    text-decoration: none;
+}

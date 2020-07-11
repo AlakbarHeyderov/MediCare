@@ -1,0 +1,84 @@
+
+
+#div-lates-news-cross-our-team{
+    width: $maxWidth;
+    height: 9*$basepx;
+}
+#container-news {
+    width: $maxWidth;
+}
+.row-news{
+    @include flex-center;
+    margin:0 95px
+}
+.news-heading h1{
+    font-size: 35px;
+    font-family: $fontMontserrat;
+    text-align: center;
+    color: #222;
+}
+.news-heading p{
+    font-family: $fontSerifPro;
+    @include text-center;
+    color: #444;
+    font-size: 1.8*$basepx;
+    margin-bottom: 7*$basepx;
+}
+.rectangle-style {
+    width: 6*$basepx;
+    height: 0.2*$basepx;
+    background-color: #0cb8b6;
+    margin: 1.7*$basepx auto;
+}
+.news-description{
+    width: 32%;
+    position: relative;
+    margin-right: 3*$basepx;
+    background-color: #ededed;
+}
+.news-description-top img{
+    @include resize-image;
+    max-width: 36.666*$basepx;
+    max-height: 27.5*$basepx;
+}
+.add-icon img{
+    position: absolute;
+    left: 19px;
+    top: 37.2%;
+    width: 4.2*$basepx;
+    height: 4.2*$basepx;
+}
+.date-time{
+    display: flex;
+    margin-top: 5*$basepx;
+}
+.icon-date-time{
+    padding-left: $padding23px;
+}
+.date-time h6{
+    padding-left:$basepx;
+    font-size: 16px;
+    margin-bottom: 2.8*$basepx;
+}
+.news-description h2{
+    font-size: 25px;
+    color: #222;
+    font-family: $fontSerifPro;
+    padding-left: $padding23px;
+    font-weight: 700;
+}
+.news-description p{
+    font-family: $fontMontserrat;
+    font-size: 13px;
+    color: #444;
+    font-weight: 400;
+    padding-left: $padding23px;
+    padding-top:2.2*$basepx;
+    padding-bottom: 5*$basepx;
+    line-height: 1.7;
+}
+
+#latest-news-patient-testimonals-div{
+    width: $maxWidth;
+    height: 10*$basepx;
+}

@@ -1,0 +1,51 @@
+.bottomfooter{
+    width: $width100;
+    height: 50px;
+    background-color:#2E3037;
+    
+
+}
+
+.line{
+    width: 1155px;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span{
+        font-size: 13px;
+        color: #fff;
+    }
+
+  }
+
+  .mid-menu ul{ 
+
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    li{
+        color: #fff;
+        margin-right: 20px;
+        &:hover{
+            
+            color: $hover-color;
+            transition: $hover-trans;
+        }
+    }
+  
+  }
+
+  .line-menu{
+      display: flex;
+  }
+
+
+  .footer-icon{
+      a{
+          font-size: 14px;
+          margin-right: 20px;
+          color: #0cb8b6;
+      }
+  }

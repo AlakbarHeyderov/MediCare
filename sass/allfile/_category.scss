@@ -1,0 +1,177 @@
+#category-list-sector{
+    padding-top: 285px;
+    .category-doctor{
+        width:100%;
+        .category-inner{
+            margin: 0px 95px;
+            display:flex;
+            justify-content: space-between;
+            width:1163px;
+        }
+    }
+}
+.doctors-inner{
+    position: relative;
+     margin-top: 10px;
+     width: 23%;
+}
+.icon-transition{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+.icon-transition img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    object-fit: cover;  
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all .5s ease-in;
+    background-image: linear-gradient(to bottom, rgba(197, 197, 197, 0.7), white);
+    cursor: pointer;
+}
+.icon-search{
+    padding: 50% 45%;
+    font-size: 40px;
+    color: $colorMain;
+}
+.icon-transition:hover .overlay{
+    transform: translate(100%, 0);
+}
+.doctor-icon{
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    z-index: 11;
+    overflow: visible;
+    border-radius: 50%;
+    display: inline-block;
+    border: 10px solid white;
+}
+
+.circle{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: $colorMain;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid $colorMain;
+    // border: 10px solid white;
+    i{
+        font-size: 45px;
+        padding-left: 18px;
+        padding-top: 20px;
+        
+    }
+}
+
+
+
+
+.circle:hover{
+background-color: white;
+color: $colorMain;
+border: 1px solid $colorMain;
+transition: all .3s ease-out;
+}
+
+.doctors-about {
+    margin-top:50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.doctors-text{
+    margin-bottom:12px;
+    @include text-size;
+}
+
+.doctors-head{
+    margin-bottom: 20px;
+    @include text-family;
+    @include head-size;
+}
+
+.mini-text{
+    @include text-mini-size;
+    @include text-family;
+    text-align:center;
+    width: 89%;
+}
+
+.working-hours{
+    width: 23%;
+    height: 530px;
+    background-color: #EDEDED;
+    margin-top:10px;
+}
+
+
+
+.working-hours-header{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.working-hours-days ul {
+    margin-left: 20px;
+    margin-top: 18px;
+    width: 231px;
+    
+}
+
+.working-hours-days ul li{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-top: 16px;
+}
+
+
+.working-text{
+    margin-bottom: 4px;
+    display: flex;
+    width: 100%;
+}
+
+
+.text-days{
+    width: 45%;
+    float: left;
+    @include text-family;
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.2;
+    color:#444;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text-hours{
+    width: 55%;
+    float: right;
+    @include text-family;
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 300;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.working-hours-days ul::after{
+    content: " ";
+    display: table;
+    width: 100%;
+    clear: both;
+}

@@ -1,0 +1,50 @@
+#upper-part{
+    width: 100%;
+    @include paddingAllSection;
+    @include displayFlexJustifyBetween;
+    box-sizing: border-box;
+    
+    .logo{
+        @include paddingTopUpper;
+    }
+    .information{
+        @include paddingTopUpper;
+        @include displayFlexJustifyBetween;
+
+        .week{
+            @include displayFlexJustifyBetween;
+            margin-right: 55px;
+        }
+        .phone{
+            @include displayFlexJustifyBetween;
+            margin-right: 55px;
+        }
+        .adress{
+            @include displayFlexJustifyBetween;
+        }
+        .small-bold-text{
+            color: #444444;
+            font-size: 15px;
+            font-family: $fontMain;
+            margin: 0px 0px 7px 0px;
+        }
+        .small-text{
+            color: rgba(68,68,68,.4);
+            font-size: 13px;
+            font-family: $fontMain;
+        }
+    }
+    .padding-section-information{
+        padding-top: 10px;
+    }
+    .icon{
+        color: $colorMain;
+        padding: 10px 10px 0px 0px;
+        i{
+            font-weight: normal;
+            font-size: 50px;
+        }
+        
+    }
+   
+}

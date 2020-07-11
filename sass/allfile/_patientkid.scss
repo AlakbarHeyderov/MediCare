@@ -1,0 +1,132 @@
+#section_patient_kid {
+    width: $mainwidth;
+  }
+  .patient_kid {
+    width: $mainwidth;
+    height: 700px;
+    margin-top: $mainmargin;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+
+  .patient {
+    width: 67%;
+    background: #e7e7e7;
+  }
+  .patient_text {
+    width: 70%;
+    margin: $mainmargin auto 0;
+    text-align: center;
+  }
+  .patient_text span {
+    border-bottom: 3px solid rgba(12, 184, 182, 1);
+    font-size: 1.4em;
+    font-family: $mainfont;
+  }
+  .patient_info {
+    width: $mainwidth;
+    height: 420px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .info_girls {
+    width: 40%;
+    height: 420px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .girls_photo {
+    width: 45%;
+    height: 420px;
+    position: relative;
+  }
+  .girls_text {
+    width: 45%;
+    height: 361px;
+    margin-top: 42px;
+  }
+  .girls_text p {
+    font-size: 16px;
+    font-family: $fontSerifPro;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #444;
+    text-align:left;
+  }
+  .girls_photo img {
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+  .girls_photo i {
+    font-size: 45px;
+    border: 6px solid white;
+    border-radius: 50%;
+    color: rgba(12, 184, 182, 1);
+    position: $mainposition;
+    margin: 0px 0px 50px 60px;
+    transition: 0.3s linear;
+    top: 33%;
+    right: 39%;
+  }
+  .girls_photo i:hover {
+    color: white;
+  }
+  .girls_photo span {
+    position: $mainposition;
+    margin: 57px 0px 0px 20px;
+  }
+  .girls_sign {
+    position: $mainposition;
+    margin-top: 90px;
+  }
+
+  
+  .kid {
+    width: 33%;
+    background-color: rgba(12, 184, 182, 1);
+    position: static;
+  }
+  .kid_text {
+    width: $mainwidth;
+    height: 420px;
+    .kid_text_head {
+      width: 70%;
+      height: 50px;
+      margin: $mainmargin 0px 0px 40px;
+    }
+  }
+  .kid_text_head span {
+    border-bottom: 3px solid white;
+    color: $maincolor;
+    font-size: 1.4em;
+    font-family: $mainfont;
+  }
+  .kid_text_head p {
+    color: $maincolor;
+    margin-top: 30px;
+  }
+  .kid_text_footer {
+    width: 70%;
+    height: 200px;
+    line-height: 1.7;
+    margin: 90px auto 0px;
+    font-size: 19px;
+    color: $maincolor;
+  }
+  .kid_button {
+    padding: 5px 35px;
+    border: 2px solid white;
+    color: white;
+    font-family: $mainfont;
+    position: absolute;
+    margin-left: 250px;
+    transition: 0.3s linear;
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+  

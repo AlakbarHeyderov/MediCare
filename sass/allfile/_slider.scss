@@ -1,0 +1,109 @@
+#slider{
+    background-image: url(../img/shutterstock_1393269051.jpg);
+    @include coverNoRepeat;
+    width: 100%;
+    height: 650px;
+    @include relative;
+    box-sizing: border-box;
+    .container-slider{
+        @include widthHeightFul ;
+        @include displayFlexJustifyStarst;
+        box-sizing: border-box;
+        @include relative;
+        .left{
+        width: 50px;
+        height: 100px;
+        background-color: rgba(0,0,0,.07);
+        margin: 20% 0px 0px 0px ;
+            i{
+                color: #222;
+                font-size: 30px;
+                padding: 35px 0px 0px 10px;
+            }
+        }
+        .slider-text{
+        width: 560px;
+        height: 250px;
+        line-height: 1.1;
+        margin: 12% 0px 0px 10%;
+        
+        h1{
+            color: #222222;
+            font-size: 60px;
+            letter-spacing: 2px;
+            font-weight: 800;
+            font-family: $fontMain;
+        }
+        h3{
+            font-size: 60px;
+            font-weight: 800;
+            color: #0cb8b6;
+            font-family: $fontMain;
+        }
+        p{
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: $fontMain;
+        }
+    }
+    .slider-services{
+        width: 560px;
+        height: 100px;
+        @include absolute;
+        bottom: 20%;
+        left: 13.7%;
+        display: flex;
+        .regular{
+            width: 50%;
+            height: 100%;
+            @include relative;
+            .regular-text{
+                width: 80%;
+                height: 100%;                
+                float: right;
+                box-sizing: border-box;
+                padding: 20px 10px 10px 10px;
+                line-height: 1.5;
+                h4{
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #222222;
+                    padding-bottom: 10px;
+                    font-family: $fontMain;
+                }
+                p{
+                    font-size: 13px;
+                    font-family: $fontMain;
+                    font-weight: 100;
+                }
+            }
+            .regular-icons{
+                width: 45px;
+                height: 45px;
+                background-color: $colorMain ;
+                box-sizing: border-box;
+                border-radius: 50%;
+                @include absolute;
+                top: 15px;
+                left: 10px;
+                transition: all 1s;
+                a{
+                    color: white;
+                }
+                i{
+                    font-size: 25px;
+                    padding: 10px;
+                }
+                &:hover{
+                    
+                    background-color: white;
+                    a{
+                        color: $colorMain;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+}

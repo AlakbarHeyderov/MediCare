@@ -1,0 +1,79 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.container-fluid {
+    width: 100%;
+    
+}
+
+.mid-row {
+    padding: 15px;
+    
+}
+
+.col-1 {
+    width: calc(8.3333%*1 - 10px);
+}
+
+.col-2 {
+    width: calc(8.3333%*2 - 10px);
+}
+
+.col-3 {
+    width: calc(8.3333%*3 - 10px);
+}
+
+.col-4 {
+    width: calc(8.3333%*4 - 10px);
+}
+
+.col-5 {
+    width: calc(8.3333%*5 - 10px);
+}
+
+.col-6 {
+    width: calc(8.3333%*6 - 10px);
+}
+
+.col-7 {
+    width: calc(8.3333%*7 - 10px);
+}
+
+.col-8 {
+    width: calc(8.3333%*8 - 10px);
+}
+
+.col-9 {
+    width: calc(8.3333%*9 - 10px);
+}
+
+.col-10 {
+    width: calc(8.3333%*10 - 10px);
+}
+
+.col-11 {
+    width: calc(8.3333%*11 - 10px);
+}
+
+.col-12 {
+    width: calc(8.3333%*12 - 10px);
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
