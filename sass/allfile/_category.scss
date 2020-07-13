@@ -1,5 +1,5 @@
 #category-list-sector{
-    padding-top: 285px;
+    padding-top: 24%;
     .category-doctor{
         width:100%;
         .category-inner{
@@ -102,10 +102,15 @@ transition: all .3s ease-out;
 }
 
 .mini-text{
-    @include text-mini-size;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #444;
+    padding: 0px 12px;
+    box-sizing: border-box;
     @include text-family;
     text-align:center;
-    width: 89%;
+    width: 100%;
 }
 
 .working-hours{

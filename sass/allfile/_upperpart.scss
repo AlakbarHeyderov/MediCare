@@ -8,7 +8,7 @@
         @include paddingTopUpper;
     }
     .information{
-        @include paddingTopUpper;
+        padding: 14px 0px;
         @include displayFlexJustifyBetween;
 
         .week{
@@ -18,6 +18,9 @@
         .phone{
             @include displayFlexJustifyBetween;
             margin-right: 55px;
+            .icon{
+                margin-top: 2px;
+            }
         }
         .adress{
             @include displayFlexJustifyBetween;

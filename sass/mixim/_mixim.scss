@@ -52,13 +52,14 @@
     font-weight: 400;
     line-height: 1.7;
     color: #444;
+    
 }
 
 
 
 @mixin text-itself {
-    font-family: 'Merriweather';
-    font-size: 15px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
     font-weight: 400;
     color: #444444;
 }
@@ -68,10 +69,8 @@
 }
 
 @mixin buttons{
-    border: 8px solid white;
+    border: 6px solid white;
     border-radius: 50%;
-    height: 45px;
-    width: 44px;
     background-color:#0CB8B6;
 }
 

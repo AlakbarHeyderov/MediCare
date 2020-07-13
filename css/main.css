@@ -66,7 +66,7 @@ table {
   padding: 18px 0px;
 }
 #upper-part .information {
-  padding: 18px 0px;
+  padding: 14px 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -79,6 +79,9 @@ table {
   display: flex;
   justify-content: space-between;
   margin-right: 55px;
+}
+#upper-part .information .phone .icon {
+  margin-top: 2px;
 }
 #upper-part .information .adress {
   display: flex;
@@ -359,18 +362,18 @@ table {
 }
 
 .container {
-  width: 1163px;
+  width: 86%;
   color: white;
   display: flex;
   justify-content: center;
   position: absolute;
-  bottom: -33%;
+  bottom: -39%;
   margin: 0 95px;
 }
 
 .box {
   width: 25%;
-  padding: 15px;
+  padding: 15px 10px 40px 10px;
   background-color: #39e2ee;
   box-sizing: border-box;
 }
@@ -383,7 +386,7 @@ table {
   width: 171px;
   font-size: 16px;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 13px;
   margin-left: 26px;
   padding: 10px;
   border: 2px solid white;
@@ -443,7 +446,7 @@ table {
 }
 
 #category-list-sector {
-  padding-top: 285px;
+  padding-top: 24%;
 }
 #category-list-sector .category-doctor {
   width: 100%;
@@ -557,9 +560,11 @@ table {
   font-weight: 400;
   line-height: 1.7;
   color: #444;
+  padding: 0px 12px;
+  box-sizing: border-box;
   font-family: Montserrat;
   text-align: center;
-  width: 89%;
+  width: 100%;
 }
 
 .working-hours {
@@ -647,10 +652,14 @@ table {
   justify-content: center;
   flex-direction: column;
 }
+.text-container .edit {
+  width: 100%;
+  padding: 50px 0px 50px 230px;
+}
 
 .text-container h3 {
-  font-family: 'Merriweather';
-  font-size: 15px;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 20px;
   font-weight: 400;
   color: #444444;
   margin-right: 31%;
@@ -670,18 +679,17 @@ table {
 }
 
 .text-container hr {
-  height: 5px;
   height: 2px;
-  width: 4.2%;
+  /* width: 4.2%; */
   border: none;
   background-color: #0CB8B6;
-  margin-right: 68.6%;
+  margin-right: 92.6%;
   margin-top: 1.5%;
 }
 
 .text-container p {
-  font-family: 'Merriweather';
-  font-size: 15px;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 20px;
   font-weight: 400;
   color: #444444;
   line-height: 33px;
@@ -698,8 +706,9 @@ table {
   background-color: #0CB8B6;
   color: white;
   margin-top: 6px;
-  margin-left: 16px;
-  height: 42px;
+  font-family: 'Montserrat', sans-serif;
+  width: 155px;
+  height: 35px;
   border: none;
   transition: all 0.5s;
 }
@@ -716,23 +725,35 @@ table {
 }
 
 .team-mbr-one {
-  background-image: url("../img/member-one.png");
-  background-repeat: no-repeat;
-  background-size: contain;
   margin: auto;
-  max-width: 265px;
-  padding: 3%;
+  max-width: 268px;
   background-color: white;
+  position: relative;
+}
+.team-mbr-one .social-media {
+  width: 40%;
+  line-height: 51px;
+  float: right;
+  margin-bottom: 20px;
+}
+.team-mbr-one .social-media i {
+  font-size: 15px;
+  color: rgba(68, 68, 68, 0.55);
+  padding: 8px;
+  border: 1px solid rgba(68, 68, 68, 0.55);
+  border-radius: 50%;
+}
+
+.img-team-one img {
+  width: 100%;
+  height: 300px;
 }
 
 .overlay2 {
   background-color: white;
   opacity: 0%;
   position: absolute;
-  margin-left: -2.7%;
-  margin-top: -2.6%;
-  width: 336px;
-  height: 370px;
+  width: 100%;
   transition: all 0.5s;
 }
 
@@ -755,78 +776,44 @@ table {
   transition: all 1s;
 }
 
-.team-mbr-two {
-  background-image: url("../img/member-one.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: auto;
-  max-width: 265px;
-  padding: 3%;
-  background-color: white;
-}
-
-.team-mbr-three {
-  background-image: url("../img/member-one.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: auto;
-  max-width: 265px;
-  padding: 3%;
-  background-color: white;
-}
-
-.team-mbr-four {
-  background-image: url("../img/member-one.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: auto;
-  max-width: 265px;
-  padding: 3%;
-  background-color: white;
-}
-
 .social-buttons {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
   position: absolute;
   z-index: 1;
-  margin-top: 18.5%;
-  margin-left: -2%;
+  top: 47%;
+}
+
+.imza {
+  width: 73%;
 }
 
 .text-box {
-  padding: 29%;
+  padding: 20px;
+  line-height: 2;
+  margin-top: 20px;
 }
 
 .inner-text {
-  width: 230px;
-  margin-top: 10px;
-  line-height: 28px;
-  margin-left: -90%;
-  font-size: 16px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  color: #444444;
+  line-height: 1.7;
 }
 
 .inner-text-3 {
-  width: 82px;
-  margin-top: 276px;
-  margin-left: -90%;
-  font-size: 15px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat';
   font-size: 15px;
   font-weight: 400;
+  color: #444444;
 }
 
 .inner-text-1 {
-  width: 233px;
-  margin-top: 11px;
-  margin-left: -90%;
-  font-size: 15px;
-  font-family: 'Lato', sans-serif;
-  font-size: 27px;
-  font-weight: 900;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  font-weight: 800;
+  color: #222222;
 }
 
 .team-icon-social {
@@ -838,78 +825,85 @@ table {
   margin: 6px 3px;
   border-radius: 50%;
   transition: all 1s;
-}
-
-.team-icon-social {
   color: white;
-}
-
-.team-icon-social:hover {
-  color: #0CB8B6;
-}
-
-.team-icon-social {
-  color: white;
-}
-
-.team-icon-social:hover {
-  color: #0CB8B6;
-}
-
-.team-icon-social {
-  color: white;
-}
-
-.team-icon-social:hover {
-  color: #0CB8B6;
-}
-
-.team-icon-social {
-  color: white;
-}
-
-.team-icon-social:hover {
-  color: #0CB8B6;
 }
 
 .btn-1 {
   transition: all 0.5s;
-  border: 8px solid white;
+  width: 40px;
+  height: 40px;
+  border: 6px solid white;
   border-radius: 50%;
-  height: 45px;
-  width: 44px;
   background-color: #0CB8B6;
+}
+.btn-1 a {
+  font-size: 21px;
+}
+.btn-1 a:hover {
+  color: #0CB8B6;
+  background-color: white;
 }
 
 .btn-2 {
+  margin-top: 7px;
   transition: all 0.5s;
-  border: 8px solid white;
+  width: 30px;
+  height: 30px;
+  border: 6px solid white;
   border-radius: 50%;
-  height: 45px;
-  width: 44px;
-  background-color: #0CB8B6;
+  background-color: #f36438;
+}
+.btn-2 a {
+  text-align: center;
+  font-size: 15px;
+  padding: 2px 10px 0px 0px;
+}
+.btn-2 a:hover {
+  color: #f36438;
+  background-color: white;
 }
 
 .btn-3 {
+  margin-top: 7px;
   transition: all 0.5s;
-  border: 8px solid white;
+  width: 30px;
+  height: 30px;
+  border: 6px solid white;
   border-radius: 50%;
-  height: 45px;
-  width: 44px;
-  background-color: #0CB8B6;
+  background-color: #f36438;
+}
+.btn-3 a {
+  text-align: center;
+  font-size: 15px;
+  padding: 0px 10px 0px 0px;
+}
+.btn-3 a:hover {
+  color: #f36438;
+  background-color: white;
 }
 
 .btn-4 {
+  margin-top: 7px;
   transition: all 0.5s;
-  border: 8px solid white;
+  width: 30px;
+  height: 30px;
+  border: 6px solid white;
   border-radius: 50%;
-  height: 45px;
-  width: 44px;
-  background-color: #0CB8B6;
+  background-color: #f36438;
+}
+.btn-4 a {
+  text-align: center;
+  font-size: 15px;
+  padding: 1px 0px 0px 0px;
+}
+.btn-4 a:hover {
+  color: #f36438;
+  background-color: white;
 }
 
 .btn-1:hover {
   background-color: white;
+  transition: all 0.3s;
 }
 
 .btn-2:hover {
@@ -1026,74 +1020,48 @@ table {
 #section_patient_kid {
   width: 100%;
 }
-
-.patient_kid {
+#section_patient_kid .patient_kid {
   width: 100%;
   height: 700px;
   margin-top: 80px;
   display: flex;
   justify-content: center;
 }
-
-.patient {
+#section_patient_kid .patient_kid .patient {
   width: 67%;
   background: #e7e7e7;
 }
-
-.patient_text {
+#section_patient_kid .patient_kid .patient .patient_text {
   width: 70%;
   margin: 80px auto 0;
   text-align: center;
 }
-
-.patient_text span {
+#section_patient_kid .patient_kid .patient .patient_text span {
   border-bottom: 3px solid #0cb8b6;
-  font-size: 1.4em;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
+  padding-bottom: 5px;
+  font-size: 25px;
 }
-
-.patient_info {
+#section_patient_kid .patient_kid .patient .patient_info {
   width: 100%;
   height: 420px;
   display: flex;
   justify-content: space-evenly;
 }
-
-.info_girls {
+#section_patient_kid .patient_kid .patient .patient_info .info_girls {
   width: 40%;
   height: 420px;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
-
-.girls_photo {
+#section_patient_kid .patient_kid .patient .patient_info .info_girls .girls_photo {
   width: 45%;
   height: 420px;
   position: relative;
 }
-
-.girls_text {
-  width: 45%;
-  height: 361px;
-  margin-top: 42px;
-}
-
-.girls_text p {
-  font-size: 16px;
-  font-family: "Source Serif Pro", serif;
-  font-weight: 400;
-  line-height: 1.7;
-  color: #444;
-  text-align: left;
-}
-
-.girls_photo img {
-  border: 3px solid white;
-  border-radius: 50%;
-}
-
-.girls_photo i {
+#section_patient_kid .patient_kid .patient .patient_info .info_girls .girls_photo i {
   font-size: 45px;
   border: 6px solid white;
   border-radius: 50%;
@@ -1101,71 +1069,87 @@ table {
   position: absolute;
   margin: 0px 0px 50px 60px;
   transition: 0.3s linear;
-  top: 33%;
-  right: 39%;
+  top: 32%;
+  right: 34%;
+  background: white;
 }
-
-.girls_photo i:hover {
+#section_patient_kid .patient_kid .patient .patient_info .info_girls .girls_photo ihover {
   color: white;
 }
-
-.girls_photo span {
+#section_patient_kid .patient_kid .patient .patient_info .info_girls .girls_photo span {
   position: absolute;
   margin: 57px 0px 0px 20px;
 }
-
-.girls_sign {
+#section_patient_kid .patient_kid .patient .patient_info .info_girls .girls_photo .girls_sign {
   position: absolute;
   margin-top: 90px;
 }
-
-.kid {
-  width: 33%;
-  background-color: #0cb8b6;
-  position: static;
+#section_patient_kid .patient_kid .patient .patient_info .info_girls .girls_text {
+  width: 45%;
+  height: 361px;
+  margin-top: 42px;
 }
-
-.kid_text {
+#section_patient_kid .patient_kid .patient .patient_info .info_girls .girls_text p {
+  font-size: 16px;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #444;
+  text-align: left;
+}
+#section_patient_kid .patient_kid .patient .patient_info .info_girls img {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+#section_patient_kid .patient_kid .kid {
+  width: 33%;
+  background-image: url(../img/bear.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section_patient_kid .patient_kid .kid .kid_text {
   width: 100%;
   height: 420px;
 }
-.kid_text .kid_text_head {
+#section_patient_kid .patient_kid .kid .kid_text .kid_text_head {
   width: 70%;
   height: 50px;
   margin: 80px 0px 0px 40px;
 }
-
-.kid_text_head span {
+#section_patient_kid .patient_kid .kid .kid_text .kid_text_head span {
   border-bottom: 3px solid white;
+  padding-bottom: 5px;
   color: white;
   font-size: 1.4em;
   font-family: "Montserrat", sans-serif;
 }
-
-.kid_text_head p {
+#section_patient_kid .patient_kid .kid .kid_text .kid_text_head p {
   color: white;
   margin-top: 30px;
 }
-
-.kid_text_footer {
-  width: 70%;
+#section_patient_kid .patient_kid .kid .kid_text .kid_text_footer {
+  width: 80%;
   height: 200px;
   line-height: 1.7;
-  margin: 90px auto 0px;
+  margin: 73px auto 0px;
   font-size: 19px;
   color: white;
 }
-
-.kid_button {
-  padding: 5px 35px;
+#section_patient_kid .patient_kid .kid .kid_button {
+  padding: 23px 0px 0px 0px;
   border: 2px solid white;
   color: white;
   font-family: "Montserrat", sans-serif;
-  position: absolute;
-  margin-left: 250px;
   transition: 0.3s linear;
+  width: 145px;
+  height: 40px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  float: right;
+  text-align: center;
+  margin: 0px 60px 0px 0px;
 }
-.kid_button:hover {
+#section_patient_kid .patient_kid .kid .kid_button:hover {
   background: white;
   color: black;
 }

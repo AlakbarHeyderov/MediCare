@@ -1,18 +1,18 @@
 
 .container{
-    width: 1163px;
-    // padding:  10 10px; 
+    width: 86%;
+    
     color: white;
     display: flex;
     justify-content: center;
     @include absolute;
-    bottom: -33%;
+    bottom: -39%;
     margin: 0 95px;
 } 
 .box{
     width: 25%;
     // height: 270px;
-    padding: 15px;
+    padding: 15px 10px 40px 10px;
     background-color: rgb(57, 226, 238);
     box-sizing: border-box;
 
@@ -25,7 +25,7 @@
         width: 171px;
         font-size: 16px;
         text-align: center;
-        margin-top: 5px;
+        margin-top: 13px;
         margin-left: 26px;
         padding: 10px;
         border: 2px solid white;
